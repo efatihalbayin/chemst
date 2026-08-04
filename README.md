@@ -26,9 +26,3 @@ Install the stable release directly from PyPI via `pip`:
 ```bash
 pip install chemst
 
-📖 How It Works & Architecture
-ChemST is divided into two main core modules:
-
-PubChemService: Interfaces with external NCBI databases to retrieve molecular specifications dynamically.
-
-SolutionCalculator: Executes high-precision stoichiometry algorithms and safety checks.
