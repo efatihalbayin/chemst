@@ -1,4 +1,3 @@
-```markdown
 # ChemST 🧪
 > **Smart Chemical Solution & Stoichiometry Engine for Python**
 
