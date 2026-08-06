@@ -1,9 +1,25 @@
-# ChemST 🧪
-> **Smart Chemical Solution & Stoichiometry Engine for Python**
+<p align="center">
+  <img src="logo.png" alt="ChemST Logo" width="180">
+</p>
 
-[![PyPI version](https://img.shields.io/pypi/v/chemst.svg)](https://pypi.org/project/chemst/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/chemst.svg)](https://pypi.org/project/chemst/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<h1 align="center">ChemST 🧪</h1>
+
+<p align="center">
+  <b>Smart Chemical Solution & Stoichiometry Engine for Python</b>
+</p>
+
+<p align="center">
+  <a href="https://efatihalbayin.github.io/chemst-web/">🌐 <b>Live Web Application</b></a> •
+  <a href="https://pypi.org/project/chemst/">📦 <b>PyPI Package</b></a>
+</p>
+
+<p align="center">
+  <a href="https://pypi.org/project/chemst/"><img src="https://img.shields.io/pypi/v/chemst.svg" alt="PyPI version"></a>
+  <a href="https://pypi.org/project/chemst/"><img src="https://img.shields.io/pypi/pyversions/chemst.svg" alt="Python Versions"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
+
+---
 
 **ChemST** is a lightweight, high-precision Python library designed for computational chemists, laboratory researchers, and students. It automates complex stoichiometry calculations, hydration adjustments, dilution protocols, and concentrated acid/base preparations while seamlessly integrating with the **PubChem REST API** to retrieve live molecular properties.
 
@@ -26,8 +42,6 @@ Install the stable release directly from PyPI via `pip`:
 ```bash
 pip install chemst
 
-```
-
 ---
 
 ## 📖 System Architecture
@@ -38,13 +52,13 @@ ChemST is divided into two core modules:
 2. `SolutionCalculator`: Executes high-precision stoichiometry algorithms and safety checks.
 
 ```text
-       +--------------------+
-       |   User Request     |
-       +---------+----------+
-                 |
-        +--------+--------+
-        |                 |
-        v                 v
+        +--------------------+
+        |    User Request    |
+        +---------+----------+
+                  |
+         +--------+--------+
+         |                 |
+         v                 v
 +---------------+   +--------------------+
 | PubChemService|   | SolutionCalculator |
 +-------+-------+   +---------+----------+
@@ -55,7 +69,7 @@ ChemST is divided into two core modules:
         +--------+------------+
                  |
                  v
-   [Result Dictionary & Recipe]
+    [Result Dictionary & Recipe]
 
 ```
 
@@ -178,8 +192,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Developed by **Ertan Fatih Albayın**
 
-* **LinkedIn:** [Ertan Fatih Albayın](https://www.google.com/search?q=https://www.linkedin.com/in/ertan-fatih-albay%25C4%25B1n-90a606279/)
-* **GitHub:** [@efatihalbayin](https://www.google.com/search?q=https://github.com/efatihalbayin)
+* **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%C4%B1n-90a606279/)
+* **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
 
 ```
 
