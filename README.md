@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/chemst/"><img src="https://img.shields.io/pypi/v/chemst.svg" alt="PyPI version"></a>
+  <a href="https://pypi.org/project/chemst/"><img src="https://img.shields.io/pypi/v/chemst.svg?cacheSeconds=3600" alt="PyPI version"></a>
   <a href="https://pypi.org/project/chemst/"><img src="https://img.shields.io/pypi/pyversions/chemst.svg" alt="Python Versions"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
