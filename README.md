@@ -136,7 +136,7 @@ print(dilution['recipe'])
 
 Calculates stock molarity ($M_{\text{stock}}$) using liquid physical constants:
 
-$$M_{\text{stock}} = \frac{d \cdot\%\cdot10}{\text{MW}}$$
+$$M_{\text{stock}} = \frac{d \cdot \% \cdot 10}{\text{MW}}$$
 
 ```python
 from chemst import SolutionCalculator
