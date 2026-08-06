@@ -41,6 +41,7 @@ Install the stable release directly from PyPI via `pip`:
 
 ```bash
 pip install chemst
+```
 
 ---
 
@@ -51,28 +52,15 @@ ChemST is divided into two core modules:
 1. `PubChemService`: Interfaces dynamically with external NCBI databases.
 2. `SolutionCalculator`: Executes high-precision stoichiometry algorithms and safety checks.
 
-```text
-        +--------------------+
-        |    User Request    |
-        +---------+----------+
-                  |
-         +--------+--------+
-         |                 |
-         v                 v
-+---------------+   +--------------------+
-| PubChemService|   | SolutionCalculator |
-+-------+-------+   +---------+----------+
-        |                     |
-        v                     v
- [NCBI REST API]    [Stoichiometric Core]
-        |                     |
-        +--------+------------+
-                 |
-                 v
-    [Result Dictionary & Recipe]
-
+```mermaid
+graph TD
+    A[User Request] --> B[PubChemService]
+    A --> C[SolutionCalculator]
+    B --> D[NCBI REST API]
+    C --> E[Stoichiometric Core]
+    D --> F[Result Dictionary & Recipe]
+    E --> F
 ```
-
 ---
 
 ## 💻 Usage & Code Examples
