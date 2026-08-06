@@ -2,15 +2,15 @@
   <img src="logo.png" alt="ChemST Logo" width="180">
 </p>
 
-<h1 align="center">ChemST 🧪</h1>
+<h1 align="center">ChemST </h1>
 
 <p align="center">
   <b>Smart Chemical Solution & Stoichiometry Engine for Python</b>
 </p>
 
 <p align="center">
-  <a href="https://efatihalbayin.github.io/chemst-web/">🌐 <b>Live Web Application</b></a> •
-  <a href="https://pypi.org/project/chemst/">📦 <b>PyPI Package</b></a>
+  <a href="https://efatihalbayin.github.io/chemst-web/"> <b>Live Web Application</b></a> •
+  <a href="https://pypi.org/project/chemst/"> <b>PyPI Package</b></a>
 </p>
 
 <p align="center">
@@ -25,17 +25,17 @@
 
 ---
 
-## 🌟 Key Features
+##Key Features
 
-- **⚡ Live PubChem REST API Integration:** Automatically fetch Molecular Weight (MW) and IUPAC names for any chemical compound using its common or scientific name.
-- **🧪 Molar Solution Calculator:** Calculate required masses for target molarities, fully adjusting for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
-- **💧 Simple & Stock Dilution ($C_1V_1 = C_2V_2$):** Compute required stock and solvent volumes for accurate lab dilutions.
-- **⚠️ Concentrated Acid/Base Engine:** Determine stock molarity from physical constants (density $d$, purity %, MW) and generate safety-compliant lab preparation protocols.
-- **📋 Step-by-Step Lab Protocols:** Generates human-readable, actionable laboratory procedure guides for every calculation.
+- **Live PubChem REST API Integration:** Automatically fetch Molecular Weight (MW) and IUPAC names for any chemical compound using its common or scientific name.
+- **Molar Solution Calculator:** Calculate required masses for target molarities, fully adjusting for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
+- **Simple & Stock Dilution ($C_1V_1 = C_2V_2$):** Compute required stock and solvent volumes for accurate lab dilutions.
+- **Concentrated Acid/Base Engine:** Determine stock molarity from physical constants (density $d$, purity %, MW) and generate safety-compliant lab preparation protocols.
+- **Step-by-Step Lab Protocols:** Generates human-readable, actionable laboratory procedure guides for every calculation.
 
 ---
 
-## 🚀 Installation
+##Installation
 
 Install the stable release directly from PyPI via `pip`:
 
@@ -45,7 +45,7 @@ pip install chemst
 
 ---
 
-## 📖 System Architecture
+##System Architecture
 
 ChemST is divided into two core modules:
 
@@ -63,7 +63,7 @@ graph TD
 ```
 ---
 
-## 💻 Usage & Code Examples
+##Usage & Code Examples
 
 ### 1. Fetching Chemical Properties via PubChem API
 
@@ -158,7 +158,7 @@ print(acid_recipe['recipe'])
 
 ---
 
-## 🛠️ API Reference
+##API Reference
 
 | Class | Method | Description |
 | --- | --- | --- |
@@ -169,13 +169,13 @@ print(acid_recipe['recipe'])
 
 ---
 
-## 📜 License
+##License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 👨‍💻 Author
+##Author
 
 Developed by **Ertan Fatih Albayın**
 
