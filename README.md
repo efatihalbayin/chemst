@@ -183,5 +183,3 @@ Developed by **Ertan Fatih Albayın** from Istanbul Technical University
 * **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
 
 ```
-
-```
