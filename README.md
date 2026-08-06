@@ -177,7 +177,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Author
 
-Developed by **Ertan Fatih Albayın** from Istanbul Technical University
+Developed by **Ertan Fatih Albayın** from Istanbul Technical University (ITU)
 
 * **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%C4%B1n-90a606279/)
 * **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
